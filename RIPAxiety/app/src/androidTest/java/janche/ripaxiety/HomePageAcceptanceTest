@@ -1,0 +1,17 @@
+onCreate():
+    User should see a welcome message on a blue background divided into three sections.
+    The user should see two buttons on the bottom of the screen. One button says "Assessment" and
+    the other button says "Checklist".
+    The user should see a dialogue below the welcome message that says "Click assessment to get started"
+
+assessmentBtn():
+    The gray button on the left should read "Assessment". Clicking the button should direct the user to
+    the assessment activity.
+
+checklistBtn():
+    The gray button on the right should read "Checklist". Clicking on the button should direct the user
+    to the checklist activity.
+
+panicBtn():
+    Opens a dialog box that displays the deep breathing .gif image intended to help the user breathe
+    and maintain control of their anxiety/emotions.

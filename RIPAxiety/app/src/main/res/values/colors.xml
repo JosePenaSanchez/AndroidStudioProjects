@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Section added by jose-->
+    <color name="midnightGreen">#114B5F</color>
+    <color name="green">#5fad41</color>
+    <color name="sealBrown">#CC5f2a11</color>
+    <color name="IlluminatingEmerald">#2d936c</color>
+    <color name="JungleGreen">#1b998b</color>
+    <color name="PastelYello">#fffd82</color>
+
+    <!--Others -->
+    <color name="colorText">#EEF0EB</color>
+        <color name="colorPrimary">#00b353</color>
+        <color name="colorPrimaryDark">#114B5F</color>
+        <color name="colorAccent">#6B717E</color>
+
+        <!--Section added by jose-->
+        <color name="colorFogBlue">#508484</color>
+</resources>

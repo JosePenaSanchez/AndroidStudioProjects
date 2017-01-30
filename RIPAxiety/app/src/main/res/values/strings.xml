@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">RIPAxiety</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">1234</string>
+    <string name="sign_in_heading">Sign-in</string>
+    <string name="sign_up_heading">Sign-up</string>
+    <string name="submit_label">Submit</string>
+
+    <string-array name="talkTo">
+        <item>Talk to 1 person briefly</item>
+        <item>Talk to 1 person for a few minutes</item>
+        <item>Talk to a 2 people briefly</item>
+        <item>Talk to 2 people for a few minutes each</item>
+        <item>Engage in a long conversation with someone</item>
+    </string-array>
+
+    <string-array name="phoneCall">
+        <item>Get closer to an acquaintance</item>
+        <item>Text or call acquaintance</item>
+        <item>Get closer to different acquaintance</item>
+        <item>Text or call both acquaintances</item>
+        <item>Call an acquaintance and talk for a while</item>
+    </string-array>
+
+    <string-array name="hangOut">
+        <item>Ask a friend to lunch/coffee/the bar</item>
+        <item>Ask a friend to a longer event (movie, carnival, etc.)</item>
+        <item>Ask a friend to hang out at home</item>
+        <item>Ask 2 friends to hang out (different places)</item>
+        <item>Ask 2 friends to hang out and do something together</item>
+    </string-array>
+
+
+    <string-array name="possibleActivities">
+        <item>Talking to more people</item>
+        <item>Phone communication</item>
+        <item>Spending time with friends</item>
+        <item>(Add your own daily goal...)</item>
+    </string-array>
+
+    <!--
+      Questions from Liebowitz social anxiety scale
+      24 Questions
+      https://www.researchgate.net/profile/Franklin_Schneier/publication
+            /13214239_Psychometric_properties_of_the_Liebowitz_Social_Anxiety_Scale_Psychological_Medicine_29_199-212
+            /links/0fcfd51238bd20315d000000.pdf
+      http://www.socialanxietysupport.com/disorder/liebowitz/
+     -->
+    <string-array name="scoringScale">
+        <item>Little to no social anxiety</item>
+        <item max-value="65" min-value="55">55-65 Moderate social phobia</item>
+        <item max-value="80" min-value="66">66-80 Marked social phobia</item>
+        <item max-value="95" min-value="81">81-95 Severe social phobia</item>
+        <item max-value="144" min-value="96">Greater than 95 - Very severe social phobia</item>
+    </string-array>
+
+    <string-array name="assessmentGuide">
+        <item>This measure assesses the way that social phobia plays a role in your life across a variety of situations.</item>
+        <item>Read each situation carefully and answer two questions about that situation.</item>
+        <item>The first question asks how anxious or fearful you feel in the situation.</item>
+        <item>The second question asks how often you avoid the situation.</item>
+        <item>If you come across a situation that you ordinarily do not experience,
+            we ask that you imagine "what if you were faced with that situation,"
+            and then rate the degree to which you would fear this hypothetical situation and how often you would tend to avoid it.
+            Please base your ratings on the way that the situations have affected you in the last week.</item>
+    </string-array>
+
+    <string-array name="assessmentQuestions">
+        <item>Telephoning in public</item>
+        <item>Participating in small groups</item>
+        <item>Eating in public places</item>
+        <item>Drinking with others in public places</item>
+        <item>Talking to people in authority</item>
+        <item>Acting, performing or giving a talk in front of an audience</item>
+        <item>Going to a party</item>
+        <item>Working while being observed</item>
+        <item>Writing while being observed</item>
+        <item>Calling someone you don’t know very well</item>
+        <item>Talking with people you don’t know very well</item>
+        <item>Meeting strangers</item>
+        <item>Urinating in a public bathroom</item>
+        <item>Entering a room when others are already seated</item>
+        <item>Being the center of attention</item>
+        <item>Speaking up at a meeting</item>
+        <item>Taking a test</item>
+        <item>Expressing a disagreement or disapproval to people you don\'t know very well</item>
+        <item>Looking at people you don’t know very well in the eyes</item>
+        <item>Giving a report to a group</item>
+        <item>Trying to pick up someone</item>
+        <item>Returning goods to a store</item>
+        <item>Giving a party</item>
+        <item>Resisting a high pressure salesperson</item>
+    </string-array>
+
+    <!--
+        Text for Assessment Buttons
+        - Buttons are under categories fear or avoidance
+    -->
+    <string-array name="assessmentFear">
+        <item> None </item>
+        <item> Mild </item>
+        <item> Moderate </item>
+        <item> Severe </item>
+    </string-array>
+
+    <string-array name="assessmentAvoidance">
+        <item>Never (0%)</item>
+        <item>Occasionally (1-33%)</item>
+        <item>Often (34-66%)</item>
+        <item>Usually (67-100%)</item>
+    </string-array>
+
+    <string-array name="assessmentCategories">
+        <item>Fear or Anxiety</item>
+        <item>Avoidance</item>
+    </string-array>
+
+    <string-array name="assessmentHeader">
+        <item>How would you rate your: </item>
+    </string-array>
+
+    <!--
+        Homepage Strings
+    -->
+    <string-array name="homepageBtn">
+        <item>Assessment</item>
+        <item>Checklist</item>
+    </string-array>
+
+    <string-array name="homepageHeader">
+        <item>Welcome!</item>
+    </string-array>
+
+    <string-array name="homepageMessage">
+        <item>Get Started</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

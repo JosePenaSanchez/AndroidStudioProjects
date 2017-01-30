@@ -1,0 +1,21 @@
+onCreate():
+    User should see a green background, blue header reading "Subject" and a question, and 4 option
+    boxes that can be selected.
+
+setAssessmentText():
+    should set the text of the question and buttons based on the user's progress
+    When the final question is reached, a dialogue should appear with the user's final score and
+    a "Got it" button should appear
+    The "got it" button should take the user to the next page of the app
+
+setAssessmentButton():
+    the buttons on the assessment page below the question should be filled with text
+    when the button is clicked, next question should appear and the progress bar should increment
+
+assessmentGuide():
+    when the assessment is opened, a dialog should appear with a brief description of the purpose of
+    the assessment.
+
+finishAssessment():
+    upon completion of the assessment, a dialog should appear with the user's numerical score
+    and a brief description of the range

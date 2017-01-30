@@ -1,0 +1,8 @@
+onCreate():
+  User should see a blue background, with text that says "Sign-in", above a 
+  box with two editable text fields, the top one with "Email" pre-typed, and
+  the bottom with "••••" pre-typed. Beneath the box, there should be a big 
+  button that says "SUBMIT"
+  
+  Upon clicking the button that says SUBMIT, user should be brought to
+  the assessment page of the app by launching the LogInSubmit class

@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_up_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <!--Assesment UI.
+        Implementation: Relative
+        Relation: Parent view of #activity_main-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mother_View"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">
+
+
+        <!--Assesment UI.
+            Implemention: Linear Layout.
+            Purpose: Layout is a ViewGroup that holds signs in info-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Sign_in_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--SIGN-Up SIGN-->
+            <TextView
+                android:id="@+id/Sign_In_Banner"
+                android:text="@string/sign_up_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:textSize="35dp"
+                android:background="@color/colorPrimaryDark" />
+
+
+            <!--USERName TEXT INPUT-->
+            <EditText
+                android:id="@+id/sign_up_username_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:text="@string/prompt_email"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="@color/colorText"
+                android:background="@color/colorAccent"
+                android:ems="10" />
+
+            <!--PASSWORD INPUT-->
+            <EditText
+                android:id="@+id/sign_up_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:text="@string/prompt_password"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorText" />
+
+            <!--SUBMIt BUTTON-->
+            <Button
+                android:id="@+id/sign_up_submit_login"
+                android:text="@string/submit_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1mm" />
+
+            <!--TESTING BUTTON -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/testbutton"
+                android:text="test"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

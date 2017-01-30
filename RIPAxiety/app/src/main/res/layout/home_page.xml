@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    XML UI implemented by Home Page
+    Created by: Liliana Acevedo 11/8/16
+    Modified by: Patrick Abbey 11/18/16
+    Modified by: Jose Pena 12/05/16
+    Modified by: Jose Pena 12/07/16
+        -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@color/midnightGreen">
+
+    <FrameLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/appName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RIPAnxiety"
+                        android:textColor="#ffffff"
+                        android:textSize="75dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Main Menu"
+                        android:textColor="#ffffff"
+                        android:textSize="50dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+            </LinearLayout>
+   </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:background="@color/midnightGreen">
+
+            <!-- Frame for top row of buttons-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:text="Take Assessment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/sealBrown"
+                        android:id="@+id/homePageBtnLeft"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"/>
+
+                    <!-- Checklist Button-->
+                    <Button
+                        android:text="View Goals"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/sealBrown"
+                        android:id="@+id/homePageBtnRight"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"/>
+                </LinearLayout>
+            </FrameLayout>
+
+
+            <!--Frame for bottom row of buttons -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <!--Panic Button -->
+                    <Button
+                        android:text="Panic Button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/sealBrown"
+                        android:id="@+id/homePageBtnPanic"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"/>
+
+                    <!--Logout Button -->
+                    <Button
+                        android:text="Log out"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/sealBrown"
+                        android:id="@+id/logoutButton"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"/>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

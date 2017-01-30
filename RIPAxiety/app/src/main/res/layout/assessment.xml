@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+        created by: Jose Pena 10/18/16
+        created by: Jose Pena 10/21/16
+        modified: Patrick Abbey 10/27/16
+        modified: Jose Pena 12/07/2016
+     -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@color/midnightGreen">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:max="48"
+        android:progress="0"
+        android:id="@+id/Progress_Bar"
+        android:layout_weight="1"/>
+
+
+
+        <!-- View with Subject Header -->
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorText"
+            android:textSize="30dp"
+            android:text="Subject:"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:id="@+id/Subject_Header"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:background="@color/midnightGreen"/>
+
+        <!-- View with Subject's Topic/text-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/colorText"
+            android:fontFamily="sans-serif"
+            android:textSize="30dp"
+            android:text="Assessment Question:"
+            android:layout_below="@+id/Subject_Header"
+            android:id="@+id/Assesment_Question"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:background="#899d78"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/IlluminatingEmerald"
+        android:id="@+id/buttonChoice1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#383f51"
+        android:id="@+id/buttonChoice2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:id="@+id/buttonChoice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/JungleGreen"
+        android:id="@+id/buttonChoice4"/>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveOnBtn"
+        android:visibility="invisible"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_marginTop="14dp"
+        android:clickable="false" />
+
+</LinearLayout>

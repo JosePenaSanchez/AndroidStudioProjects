@@ -1,0 +1,31 @@
+onCreate():
+  User should see a green background screen with a button at the bottom that says "Add Goal"
+  
+selectGoal():
+  Upon clicking the "Add Goal" button, user should see a popup asking "What would you like 
+  to work on?" and a list of options that include "Talking to more people", "Phone communication",
+  "Spending time with friends", and "(Add your own daily goal...)". 
+  
+addGoal(), makeCheckBox():
+  If there are less than four checkboxes visible:
+  After selecting "Talking to more people", a new checkbox should appear with the text:
+  "Talk to 1 person briefly" 
+  After selecting "Phone communication", a new checkbox should appear with the text:
+  "Get closer to an acquaintance" 
+  After selecting "Spending time with friends", a new checkbox should appear with the text:  
+  "Ask a friend to lunch/coffee/the bar" 
+  
+  If there are already four checkboxes visible, selecting any of these options from the popup will 
+  not do anything
+
+addOwnGoal():
+  After selecting "(Add your own daily goal...)", another popup should come up that says:
+  "Enter in a daily goal: " along with a text field and a button that says "Add". 
+
+makeCustomCheckbox():
+  If there are less than four checkboxes visible:
+  Upon clicking the "Add" button in the popup that says "Enter in a daily goal: ", a new
+  checkbox should appear with text that says what the user entered in the popup's text field.
+  
+  If there are already four checkboxes visible, pressing the "Add" button on the popup will
+  not do anything

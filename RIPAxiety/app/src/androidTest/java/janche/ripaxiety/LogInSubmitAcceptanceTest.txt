@@ -1,0 +1,8 @@
+onCreate():
+  User should see the assessment part of the app. The backgound should be blue,
+  with a dark blue strip at the top that says:
+  "Subject:
+  18. Expressing a disagreement or disapproval to people you don't know very well"
+  
+  Beneath that should be four dark blue squares, indicating where answers will be
+  selected once we implement them. 

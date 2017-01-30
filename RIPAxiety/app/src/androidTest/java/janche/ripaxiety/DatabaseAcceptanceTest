@@ -1,0 +1,31 @@
+Database Helper Class:
+    Manages all operations related to the database
+    Uses SQLiteOpenHelper
+    Automatically creates and updates the database
+
+DatabaseHelper():
+    Constructor uses SQLiteOpenHelper to create database
+
+onCreate():
+    Creates the tables for Users, Assessment, Goals
+
+onUpgrade():
+    Drops tables when they need to be updated
+
+insertNewUsersData():
+    Adds a user name, user id, and password onto the database, via SignUpFragment.java
+
+insertNewGoalData():
+    Adds new goal data. Data includes goal ID, descriptive sentence, completion, date added, date completed,
+    and the related user ID
+
+insertNewAssessmentData():
+    Adds new assessment data to the database. Data includes date, score, assessment ID, related user ID,
+    and calculated intensity
+
+getDateTime():
+    This function returns the current systems data and time.
+    To be used in checklist and assessment.
+
+getAllData():
+    Returns all data stored in user's table. Primarily for debugging purposes.

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    XML UI implemented by ChecklistActivity
+    created by: Patrick Abbey 10/17/16
+    modified: Patrick Abbey 10/18/16
+    modified: Patrick Abbey 10/21/16
+    modified: Patrick Abbey 10/22/16
+    modified: Patrick Abbey 10/26/16
+    modified: Patrick Abbey 10/27/16
+ -->
+
+<!-- Sets the layout of the personal checklist activity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_checklist"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="janche.ripaxiety.ChecklistActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- The first goal checkbox-->
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/checkBox"
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+    <!-- The second goal checkbox-->
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/checkBox2"
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+
+    <!-- The third goal checkbox-->
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/checkBox3"
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+    <!-- The fourth goal checkbox-->
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/checkBox4"
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+    <!-- The button that lets the user add a goal to the checklist -->
+    <Button
+        android:text="Add Goal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button2"
+        android:textSize="14sp"
+        android:onClick="selectGoal"
+        android:textColor="@color/colorText" />
+
+</LinearLayout>
+

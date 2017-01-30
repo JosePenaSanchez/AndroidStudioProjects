@@ -1,0 +1,7 @@
+PushNotification.java
+
+onCreate():
+    Generates push notifications with positive, motivational phrases
+
+setContentIntent():
+    Set intent for the push notifications
