@@ -1,7 +1,7 @@
 # AndroidStudioProjects
 Android Application (RIPAnxiety) (Alpha Version)
 
-Copyright (c) 2016 0x1CAssassins, Jose Pena Sanchez, Patrick Abbey, Liliana Acevedo, Cristian Cepeda
+Developer Team: Jose Pena Sanchez, Patrick Abbey, Liliana Acevedo, Cristian Cepeda
 
 This repository contains files for an Android Mobile Application.
 It's purpose is to help people cope with their social anxiety.
