@@ -1,5 +1,5 @@
 # AndroidStudioProjects
-Android Application (RIPAnxiety) (Alpha Version)
+Android Application: RIPAnxiety
 
 Developer Team: Jose Pena Sanchez, Patrick Abbey, Liliana Acevedo, Cristian Cepeda
 
