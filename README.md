@@ -3,14 +3,11 @@ Android Application: RIPAnxiety
 
 Developer Team: Jose Pena Sanchez, Patrick Abbey, Liliana Acevedo, Cristian Cepeda
 
-This repository contains files for an Android Mobile Application.
-It's purpose is to help people cope with their social anxiety.
+This repository contains files for an Android mobile application that was developed
+as a class project.
 
 RIPAnxiety Features:
-* users to make accounts on their local device.
-* users to use the Leibowitz Social Anxiety Assessment
-  to "way that social phobia plays a role in your life
-  across a variety of situations"
+* users can make accounts on their local device.
+* users can take the Leibowitz Social Anxiety Assessment
 * suggests daily goals for the user to complete to improve
   their social anxiety.
-
